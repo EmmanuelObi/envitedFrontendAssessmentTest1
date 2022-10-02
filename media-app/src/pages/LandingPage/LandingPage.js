@@ -3,6 +3,7 @@ import ImageComponent from "../../components/ImageComponent/ImageComponent";
 import styles from "./LandingPage.module.css";
 import { AppImages } from "../../assets/index";
 import useScreenWidth from "../../hooks/useScreenWidth";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   const screenWidth = useScreenWidth();
@@ -10,7 +11,9 @@ const LandingPage = () => {
   return (
     <div className={styles.LandingPage}>
       {screenWidth <= 990 && (
-        <button className={styles.action_button}>🎉 Create my event</button>
+        <Link to="/create" className={styles.link}>
+          <button className={styles.action_button}>🎉 Create my event</button>
+        </Link>
       )}
       <div className={styles.LP_IMG}>
         <ImageComponent imageSrc={AppImages.LP_IMG} />
@@ -26,7 +29,9 @@ const LandingPage = () => {
         </p>
 
         {screenWidth > 990 && (
-          <button className={styles.action_button}>🎉 Create my event</button>
+          <Link to="/create" className={styles.link}>
+            <button className={styles.action_button}>🎉 Create my event</button>
+          </Link>
         )}
       </div>
     </div>
