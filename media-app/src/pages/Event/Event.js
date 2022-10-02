@@ -15,9 +15,9 @@ const Event = () => {
   return (
     <div className={styles.events}>
       <div className={styles.eventView}>
-        <h2>{eventName ?? ""}</h2>
+        <h2>{eventName}</h2>
         <p>
-          Hosted by <span>{hostName ?? ""}</span>
+          Hosted by <span>{hostName}</span>
         </p>
         <div className={styles.info}>
           <div className={styles.date}>
@@ -35,8 +35,8 @@ const Event = () => {
           <div className={styles.location}>
             <div className={styles.icon}>Icon</div>
             <div className={styles.locate}>
-              <span className={styles.streetName}>{location ?? ""}</span>
-              <span className={styles.postal}>Suburb, State, Postcode</span>
+              <span className={styles.streetName}>{location}</span>
+              {/* <span className={styles.postal}>Suburb, State, Postcode</span> */}
             </div>
           </div>
         </div>

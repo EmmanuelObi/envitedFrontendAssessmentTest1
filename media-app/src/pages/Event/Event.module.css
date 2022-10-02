@@ -40,4 +40,31 @@
 }
 
 .eventView .info {
+  margin-top: 50px;
+}
+
+.eventView .info .date {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .events {
+    max-width: 85%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .events {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .events .CAKE_IMG {
+    height: 50vh;
+  }
+  .events .eventView {
+    align-self: flex-start;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+  }
 }
