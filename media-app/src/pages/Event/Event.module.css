@@ -1,0 +1,43 @@
+.events {
+  max-width: 70%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.events .CAKE_IMG {
+  height: 60vh;
+  filter: drop-shadow(0px 0px 33.1283px rgba(0, 0, 0, 0.05));
+}
+.events .eventView {
+  align-self: flex-start;
+  margin-top: 120px;
+}
+
+.eventView h2 {
+  font-family: Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #240d57;
+}
+.eventView p {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #828282;
+  margin-top: -30px;
+}
+.eventView p span {
+  font-weight: 900;
+}
+
+.eventView .info {
+}
