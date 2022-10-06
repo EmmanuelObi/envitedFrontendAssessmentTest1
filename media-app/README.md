@@ -1,3 +1,15 @@
+# envitedFrontendAssessmentTest1 : View live [here](https://event-media-app.netlify.app/)
+
+![image 1](https://github.com/EmmanuelObi/envitedFrontendAssessmentTest1/blob/main/liveSiteImage1.png?raw=true)
+
+<br />
+
+![image 2](https://github.com/EmmanuelObi/envitedFrontendAssessmentTest1/blob/main/liveSiteImage2.png?raw=true)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
