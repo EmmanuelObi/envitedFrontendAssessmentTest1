@@ -42,7 +42,7 @@ const Event = () => {
         </div>
       </div>
       <div className={styles.CAKE_IMG}>
-        <ImageComponent imageSrc={AppImages.CAKE_IMG} />
+        <ImageComponent imageSrc={AppImages.CAKE_IMG} imageAlt="cake" />
       </div>
     </div>
   );

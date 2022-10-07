@@ -16,7 +16,7 @@ const LandingPage = () => {
         </Link>
       )}
       <div className={styles.LP_IMG}>
-        <ImageComponent imageSrc={AppImages.LP_IMG} />
+        <ImageComponent imageSrc={AppImages.LP_IMG} imageAlt="landing page" />
       </div>
       <div className={styles.call_to_action}>
         <h2>
